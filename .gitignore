@@ -1,0 +1,7 @@
+documentation/latex/*.aux
+documentation/latex/*.bbl
+documentation/latex/*.blg
+documentation/latex/*.log
+documentation/latex/*.gz
+documentation/latex/*.toc
+documentation/latex/*.pdf
