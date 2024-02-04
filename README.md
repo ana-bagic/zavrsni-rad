@@ -1,1 +1,7 @@
 ## This is my final thesis for bachelors degree @ FER
+
+In this paper, I studied the problem of generating sheet music from a video that uses falling lines to show at what time which key on the piano keyboard was pressed. By analyzing each frame of the video, I received information about the keys pressed, and used it to build a song model. Using the application is very simple: the user selects the desired video, sets certain parameters of the song (e.g.piano keyboard range, measure and approximate tempo of the song), and as an output receives a file in MusicXML format that contains all the important information to generate the sheet music. By uploading the resulting file to one of the many tools available on the Internet, the user can get the sheet music in PDF format. Due to the wide possibilities of music, and the freedom of musicians, I faced many seemingly trivial but very complex problems when implementing the program. The usefulness of this program is large even if it does not give 100% accurate results, because it takes on a huge amount of work, and leaves the musician to deal with only small corrections. The implementation of the software solution is explained in this paper, and the obtained results are listed and analyzed.
+
+The folder 'documentation' contains all the documentation for the project including the paper itself.
+
+The folder 'code' contains source code of the program written in Java15, using OpenCV and JavaFX.
