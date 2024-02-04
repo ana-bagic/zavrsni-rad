@@ -1,0 +1,37 @@
+<measure number="1">
+	<direction placement="above">
+		<direction-type>
+			<metronome>
+				<beat-unit>#BU#</beat-unit>
+				<per-minute>#BPM#</per-minute>
+			</metronome>
+		</direction-type>
+		<sound tempo="#BPM#" />
+	</direction>
+
+	#NOTR#
+	
+	<backup>
+		<duration>#DUR#</duration>
+	</backup>
+	
+	<attributes>
+		<divisions>#DIV#</divisions>
+		<key>
+			<fifths>#FIF#</fifths>
+			<mode>#MOD#</mode>
+		</key>
+		<time print-object="yes">
+			<beats>#BTS#</beats>
+			<beat-type>#BT#</beat-type>
+		</time>
+		<staves>#ST#</staves>
+		<clef number="1">
+			<sign>G</sign>
+			<line>2</line>
+		</clef>
+		#CLF#
+	</attributes>
+	
+	#NOTL#
+</measure>

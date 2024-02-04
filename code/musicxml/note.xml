@@ -1,0 +1,11 @@
+<note>
+	<pitch>
+		<step>#S#</step>
+		<octave>#O#</octave>
+		#AL#
+	</pitch>
+	<duration>#ND#</duration>
+	<type>#NT#</type>
+	<staff>#HD#</staff>
+	#EXT#
+</note>
